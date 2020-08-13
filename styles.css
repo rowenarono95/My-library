@@ -5,3 +5,9 @@
     background-position: center;
     position: relative;
 }
+h1{
+    padding: 10px;
+    margin: auto;
+    border: 1px solid blue;
+    background-color: blue;
+}
