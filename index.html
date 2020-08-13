@@ -3,26 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-
+<link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>My-library</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="navbar">
-          <h1 id="logo">lib</h1>
-          <img src="image/bklog.jpeg" alt="logo" height="20px" width="10px" />
-          <ul>
-            <li><a href="#">Home</a></li>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Library</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Books</a></li>
             <li><a href="#">Library</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
+      </nav>
     <section>
       <div class="about">
         <h1>About</h1>
@@ -38,24 +36,26 @@
           <span>so much fun!</span>
         </p>
       </div>
+      <div class="books">
 
-      <div class="library">
-        <h1>Library</h1>
-        <ol>
-            <div id="books">
-                <img src="/image/bk4.jpg" alt="">
-                <li>Fiction</li>
-            </div>
-            <div>
-                <img src="/image/bk6.jpg" alt="">
-                <li>Sypher</li>
-            </div>
-            <div>
-                <img src="/image/bk5.jpg" alt="">
-                <li>Romance</li>
-            </div>
-        </ol>
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="image/b3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">This is a fictional book it speaks about a girl who fell inlove with a wicth.</p>
+        </div>
       </div>
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="image/bk4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">This book is most interesting because it spaeks about the royal family.</p>
+        </div>
+      </div><div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="image/bk5.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">This books tells us about a princess who fights for her love.</p>
+        </div>
+      </div>
+    </div>
     </section>
     <footer>
         <div class="contact">
